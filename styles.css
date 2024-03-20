@@ -184,6 +184,734 @@ width: 30%;
 
 }
 
+
+/* ---------------------------------------------SECCION-2--------------------------------------- */
+
+.Seccion_2{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(84,218,112);
+    width: 100%;
+    height: 100vh;
+}
+
+.sec2_left{
+    width: 50%;
+}
+
+.linea_1{
+    background: url(./img/sec2l1.png) center/cover;
+    height: 33%;
+    width: 50%;
+}
+
+.texto_sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Titulo_sec2 p{
+    text-align: center;
+    font-size: 60px;
+    width: 430px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.Parrafo_sec2 p{
+    width: 430px;
+    text-align: center;
+}
+
+.linea_2 {
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    background: url(./img/sec2l2.png) center/cover;
+    height: 33%;
+    width: 50%;
+
+}
+
+.sec2_right {
+    width: 100%; /* Ajusta el ancho como desees */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_right {
+    display: flex;
+    flex-direction: row; /* Alinea los elementos en fila */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    width: 100%; /* Ajusta el ancho según sea necesario */
+}
+
+.Titulo_r {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.Parrafo_r {
+    width: 100%;
+    margin-top: 10px;
+    text-align: justify; /* Ajusta la alineación del párrafo como desees */
+}
+
+.lineas2 {
+    margin-top: 20px; /* Ajusta el margen superior como desees */
+    margin-bottom: 20px; /* Ajusta el margen inferior como desees */
+    width: 100%; /* Ajusta el ancho como desees */
+    height: 3px; /* Altura para convertirlo en una línea */
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* <!-- -------------------------SECCION_3---------------------------------------------- --> */
+
+.Seccion_3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.contenedor_s3{
+margin-top: 60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.Titulo_s3{
+    font-size: 40px;
+    color:  rgba(84,218,112);
+    text-align: center;
+}
+
+.Parrafo_s3{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* ------imagenes------------------------------- */
+
+.contenedor2_s3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.content_left{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.content_right{
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.content_s3{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 265px;
+    margin-right: 120px;
+    margin-top: 25px;
+
+}
+
+.content_s3l{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 265px;
+    margin-left: 120px;
+    margin-top: 25px;
+}
+
+.textos_s3{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.SubTitulo_s3{
+    margin-top: 20PX;
+    font-size: 20px;
+    color: rgba(84,218,112);
+}
+
+.SubTitulo_s3 span{
+    font-size: 15px;
+    color:rgba(84,218,112);
+}
+
+.sub-texto_s3{
+    margin-top: 20PX;
+    color: white;
+}
+
+/* ---------------------------------------------SECCION-4--------------------------------------- */
+.Seccion_4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(84,218,112);;
+}
+
+.Contents4_1{
+    display: flex;
+    width: 600px;
+    background: url(./img/l1sec4.png) center/cover;
+    height: 100px;
+}
+
+.Contents4_2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(255, 255, 122, 0);
+    height: 60%;
+}
+.content_lefts4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 50%
+ }
+
+.image_s4{
+    background:url(./img/Imagen_1s4.png)center/cover;
+    filter: grayscale(100%);
+    width: 60%;
+    height: 100%;
+    border: 3px solid white;
+}
+
+
+.Contents4_3{
+    display: flex;
+    width: 100%;
+    background:url(./img/l2sec4.png)center/cover;
+    height: 35%;
+}
+
+.content_rights4{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgba(137, 43, 226, 0);
+    height: auto;
+    justify-content: center;
+}
+
+
+.titulo1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+}
+
+.titulo2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+}
+
+.titulo1 p{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.titulo2 p{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.botonshapes4{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgba(84, 218, 113, 0);
+    border-radius: 20px;
+    width: 150px;
+    height: 25px;
+    color: rgba(84,218,112); /* Añade esta línea para cambiar el color del texto */
+    font-size: 12px;
+    font-weight: 450;
+    margin: 20PX;
+}
+
+.Parrafo_s4{
+    margin-top: 15px;
+    width: 320px;
+    margin-bottom: 10px;
+}
+
+
+.button1_4{
+    margin-top: 15px;
+    background-color: rgb(21, 21, 21);
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    color: rgb(248, 247, 247); /* Añade esta línea para cambiar el color del texto */
+    text-align: center; /* Añade esta línea para centrar el texto */
+    font-size: 12px;
+}
+
+.button2_4{
+    margin-top: 15px;
+    border: 3px solid rgb(12, 12, 12);
+    background-color: rgba(84, 218, 113, 0);
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    color: rgb(0, 0, 0); /* Añade esta línea para cambiar el color del texto */
+    text-align: center; /* Añade esta línea para centrar el texto */
+    font-size: 12px;
+    font-weight: 450;
+    margin-left: 20px;
+}
+
+
+
+/* <!-- ---------------------------------------------------------SECCION_5------------------------------------------------> */
+
+.Seccion_5{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+
+.Sec5_Left{
+    width: 50%;
+    height: auto;
+}
+
+
+
+.Star_s5{
+    display: flex;
+    background: url(./img/Star_s5.png)center/cover;
+    width: 125px;
+    height: 25%;
+}
+.Textos_s5{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 55%;
+    margin-left: 120px;
+}
+
+.title_s5{
+    margin-top: 30px;
+    width: 410px;
+    font-size: 55px;
+    color:rgba(84,218,112);
+}
+
+.parrafo_s5{
+    color:white;
+    width: 350px;
+}
+
+.button1_s5{
+    border-color: rgba(84,218,112);
+    background-color: rgba(84,218,112);
+    border-radius: 20px;
+    width: 120px;
+    height: 25px;
+    color: rgb(0, 0, 0); /* Añade esta línea para cambiar el color del texto */
+    text-align: center; /* Añade esta línea para centrar el texto */
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.fot_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.parra_s5{
+    font-size: 22px;
+    color: rgba(84,218,112);
+}
+
+.fot_2{
+    margin-left: 120px;
+    width: 300px;
+    font-size: 15px;
+    color: white;
+}
+
+
+.Sec5_Right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+}
+
+.contenido_r{  
+    margin-top: 30px;
+    display: flex;  
+    flex-direction: column;
+    width: 350px;
+}
+
+.imagen_s5r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen_s5r img{
+    width: 250px;
+    height: 400px;
+    opacity: 50%;
+}
+
+.top_s5r{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fot_2_r{
+    width: 320px;
+    font-size: 15px;
+    color: white;
+}
+
+.top_s5r img{
+   margin-left: -20px;
+}
+
+
+.star_s5d  {
+    display: flex;
+    justify-content: flex-end;
+
+
+ }
+
+.star_s5d img {
+display: flex;
+width: 125px;
+height: 150px;
+justify-content: flex-end;
+ }
+
+/* ------------------------------seccion-6------------------------ */
+
+.seccion_6{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(84,218,112);
+}
+
+.contenido6_uno{
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    justify-content: center;
+    
+}
+
+.division_1{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+}
+
+.botonshape6{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgba(84, 218, 113, 0);
+    border-radius: 20px;
+    width: 120px;
+    height: 25px;
+    color: rgba(84,218,112); /* Añade esta línea para cambiar el color del texto */
+    font-size: 12px;
+    font-weight: 450;
+}
+
+.division_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+
+.division_2 p{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+
+}
+
+.division_2 span{
+    text-align: center;
+    font-size: 65px;
+
+}
+
+
+.division_3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 25%;
+    height: 100%;
+
+}
+
+.division_3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.contenido6_dos{
+    width: 100%;
+    height: 27%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row(3);
+}
+
+.contenido6_tres{
+    width: 100%;
+    height: 27%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.parrafo-6{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    margin: 30px;
+    
+    
+    
+}
+.Fecha{
+font-size: 25px;
+}
+
+.Parrafo{
+
+}
+
+.button1_s6{
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 120px;
+    height: 25px;
+    color:  rgba(84,218,112);
+    text-align: center; /* Añade esta línea para centrar el texto */
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.contenido6_cuatro{
+    display: flex;
+    height:21% ;
+    justify-content: space-between;
+}
+
+.botonshape62{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgba(84, 218, 113, 0);
+    border-radius: 20px;
+    width: 120px;
+    height: 25px;
+    color: rgba(84,218,112); /* Añade esta línea para cambiar el color del texto */
+    font-size: 12px;
+    font-weight: 450;
+    margin: 15px;
+}
+
+
+/* ------------------------------seccion-7------------------------ */
+
+.seccion_7{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.contenido_7uno{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+}
+
+.primero_7{
+    width: 30%;
+    height: 90%;
+}
+.primero_7 img{
+    margin-top: 10%;
+    width: 40%;
+    height: 80%;
+}
+
+.Mitad_7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.Titulo_7{
+    font-weight: bold;
+    font-size: 45px;
+    color:rgba(84,218,112); 
+}
+
+.parrafo_7{
+    margin-top: 10px;
+    color:white;
+    text-align: center;
+}
+
+.tercero_7{ 
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    height: 90%;
+}
+
+.tercero_7 img{
+    margin-top: 10%;
+    width: 40%;
+    height: 80%;
+}
+
+.contenido_7dos{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_7{
+    width: 30%;
+    background-color: rgba(84,218,112);
+    margin: 4%;
+}
+
+.imgagen_7 img{
+    width: 100%;
+}
+
+.foter_7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nombre_7{
+    font-size: 30px;
+}
+
+
+.botonshape62-7{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 120px;
+    height: 25px;
+    color: rgba(84,218,112); /* Añade esta línea para cambiar el color del texto */
+    font-size: 12px;
+    font-weight: 450;
+    margin: 15px;
+}
+
+.contenido_7tres{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* --------------------seccion--footer----------------- */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgba(84,218,112);
+
+}
+
+.contenedor_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contenido_fot_1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 20px;
+}
+
+.Titulo_fot{
+    font-size: 30px;
+}
+
+
+
+
+/* -------------------MEDIA -- QUERYS ------------------------ */
+
+
+/* ------------------SECCION # 1 ---------------------- */
+
+
 @media only screen 
    and (max-width : 1114px) {
 
@@ -307,92 +1035,8 @@ width: auto;
 
 }
 
-/* ---------------------------------------------SECCION-2--------------------------------------- */
+/* ------------------------ # SECCION 2  ------------------------------*/
 
-.Seccion_2{
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(84,218,112);
-    width: 100%;
-    height: 100vh;
-}
-
-.sec2_left{
-    width: 50%;
-}
-
-.linea_1{
-    background: url(./img/sec2l1.png) center/cover;
-    height: 33%;
-    width: 50%;
-}
-
-.texto_sec2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.Titulo_sec2 p{
-    text-align: center;
-    font-size: 60px;
-    width: 430px;
-    margin-top: 40px;
-    margin-right: 30px;
-}
-
-.Parrafo_sec2 p{
-    width: 430px;
-    text-align: center;
-}
-
-.linea_2 {
-    margin-top: 8px;
-    display: flex;
-    justify-content: flex-start;
-    background: url(./img/sec2l2.png) center/cover;
-    height: 33%;
-    width: 50%;
-
-}
-
-.sec2_right {
-    width: 100%; /* Ajusta el ancho como desees */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.content_right {
-    display: flex;
-    flex-direction: row; /* Alinea los elementos en fila */
-    align-items: center; /* Centra verticalmente los elementos */
-    justify-content: flex-start; /* Alinea los elementos al inicio (izquierda) */
-    width: 100%; /* Ajusta el ancho según sea necesario */
-}
-
-.Titulo_r {
-    width: 100%;
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-.Parrafo_r {
-    width: 100%;
-    margin-top: 10px;
-    text-align: justify; /* Ajusta la alineación del párrafo como desees */
-}
-
-.lineas2 {
-    margin-top: 20px; /* Ajusta el margen superior como desees */
-    margin-bottom: 20px; /* Ajusta el margen inferior como desees */
-    width: 100%; /* Ajusta el ancho como desees */
-    height: 3px; /* Altura para convertirlo en una línea */
-    background-color: rgb(0, 0, 0);
-}
 
 
 @media only screen 
@@ -474,102 +1118,7 @@ width: auto;
 
 }
 
-/* <!-- -------------------------SECCION_3---------------------------------------------- --> */
-
-.Seccion_3{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-}
-
-.contenedor_s3{
-margin-top: 60px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-
-.Titulo_s3{
-    font-size: 40px;
-    color:  rgba(84,218,112);
-    text-align: center;
-}
-
-.Parrafo_s3{
-    margin-top: 10px;
-    text-align: center;
-    color: white;
-}
-
-/* ------imagenes------------------------------- */
-
-.contenedor2_s3{
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-    justify-content: center;
-}
-
-.content_left{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column; 
-    width: 50%;
-    margin-bottom: 20px;
-}
-
-.content_right{
-    align-items: center;
-    display: flex;
-    flex-direction: column; 
-    width: 50%;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-
-.content_s3{
-    display: flex;
-    flex-direction: column;
-    width: 380px;
-    height: 265px;
-    margin-right: 120px;
-    margin-top: 25px;
-
-}
-
-.content_s3l{
-    display: flex;
-    flex-direction: column;
-    width: 380px;
-    height: 265px;
-    margin-left: 120px;
-    margin-top: 25px;
-}
-
-.textos_s3{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.SubTitulo_s3{
-    margin-top: 20PX;
-    font-size: 20px;
-    color: rgba(84,218,112);
-}
-
-.SubTitulo_s3 span{
-    font-size: 15px;
-    color:rgba(84,218,112);
-}
-
-.sub-texto_s3{
-    margin-top: 20PX;
-    color: white;
-}
+/* ------------------------------- SECCION # 3 ---------------------------*/
 
 
 
@@ -582,9 +1131,7 @@ justify-content: center;
         width: 100%;
         height: auto;
     }
-    
-    
-    /* ------imagenes------------------------------- */
+
     
     .contenedor2_s3{
         display: flex;
@@ -740,130 +1287,9 @@ justify-content: center;
     
 
    }
-/* ---------------------------------------------SECCION-4--------------------------------------- */
-.Seccion_4{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(84,218,112);;
-}
-
-.Contents4_1{
-    display: flex;
-    width: 600px;
-    background: url(./img/l1sec4.png) center/cover;
-    height: 100px;
-}
-
-.Contents4_2{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: rgba(255, 255, 122, 0);
-    height: 60%;
-}
-.content_lefts4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 50%
- }
-
-.image_s4{
-    background:url(./img/Imagen_1s4.png)center/cover;
-    filter: grayscale(100%);
-    width: 60%;
-    height: 100%;
-    border: 3px solid white;
-}
 
 
-.Contents4_3{
-    display: flex;
-    width: 100%;
-    background:url(./img/l2sec4.png)center/cover;
-    height: 35%;
-}
-
-.content_rights4{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    background-color: rgba(137, 43, 226, 0);
-    height: auto;
-    justify-content: center;
-}
-
-
-.titulo1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 400px;
-}
-
-.titulo2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 400px;
-}
-
-.titulo1 p{
-    font-size: 60px;
-    font-weight: 500;
-}
-
-.titulo2 p{
-    font-size: 60px;
-    font-weight: 500;
-}
-
-.botonshapes4{
-    border: 3px solid rgb(0, 0, 0);
-    background-color: rgba(84, 218, 113, 0);
-    border-radius: 20px;
-    width: 150px;
-    height: 25px;
-    color: rgba(84,218,112); /* Añade esta línea para cambiar el color del texto */
-    font-size: 12px;
-    font-weight: 450;
-    margin: 20PX;
-}
-
-.Parrafo_s4{
-    margin-top: 15px;
-    width: 320px;
-    margin-bottom: 10px;
-}
-
-
-.button1_4{
-    margin-top: 15px;
-    background-color: rgb(21, 21, 21);
-    border-radius: 20px;
-    width: 120px;
-    height: 30px;
-    color: rgb(248, 247, 247); /* Añade esta línea para cambiar el color del texto */
-    text-align: center; /* Añade esta línea para centrar el texto */
-    font-size: 12px;
-}
-
-.button2_4{
-    margin-top: 15px;
-    border: 3px solid rgb(12, 12, 12);
-    background-color: rgba(84, 218, 113, 0);
-    border-radius: 20px;
-    width: 120px;
-    height: 30px;
-    color: rgb(0, 0, 0); /* Añade esta línea para cambiar el color del texto */
-    text-align: center; /* Añade esta línea para centrar el texto */
-    font-size: 12px;
-    font-weight: 450;
-    margin-left: 20px;
-}
+/* ---------------------------- SECCION # 4 ------------------------- */
 
 
 @media only screen 
@@ -1071,139 +1497,7 @@ justify-content: center;
 
    }
 
-
-
-
-/* <!-- ---------------------------------------------------------SECCION_5------------------------------------------------> */
-
-.Seccion_5{
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    width: 100%;
-}
-
-.Sec5_Left{
-    width: 50%;
-    height: auto;
-}
-
-
-
-.Star_s5{
-    display: flex;
-    background: url(./img/Star_s5.png)center/cover;
-    width: 125px;
-    height: 25%;
-}
-.Textos_s5{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 55%;
-    margin-left: 120px;
-}
-
-.title_s5{
-    margin-top: 30px;
-    width: 410px;
-    font-size: 55px;
-    color:rgba(84,218,112);
-}
-
-.parrafo_s5{
-    color:white;
-    width: 350px;
-}
-
-.button1_s5{
-    border-color: rgba(84,218,112);
-    background-color: rgba(84,218,112);
-    border-radius: 20px;
-    width: 120px;
-    height: 25px;
-    color: rgb(0, 0, 0); /* Añade esta línea para cambiar el color del texto */
-    text-align: center; /* Añade esta línea para centrar el texto */
-    font-size: 12px;
-    margin-top: 20px;
-}
-
-.fot_1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 120px;
-}
-
-.parra_s5{
-    font-size: 22px;
-    color: rgba(84,218,112);
-}
-
-.fot_2{
-    margin-left: 120px;
-    width: 300px;
-    font-size: 15px;
-    color: white;
-}
-
-
-.Sec5_Right{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: auto;
-    justify-content: center;
-}
-
-.contenido_r{  
-    margin-top: 30px;
-    display: flex;  
-    flex-direction: column;
-    width: 350px;
-}
-
-.imagen_s5r{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.imagen_s5r img{
-    width: 250px;
-    height: 400px;
-    opacity: 50%;
-}
-
-.top_s5r{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.fot_2_r{
-    width: 320px;
-    font-size: 15px;
-    color: white;
-}
-
-.top_s5r img{
-   margin-left: -20px;
-}
-
-
-.star_s5d  {
-    display: flex;
-    justify-content: flex-end;
-
-
- }
-
-.star_s5d img {
-display: flex;
-width: 125px;
-height: 150px;
-justify-content: flex-end;
- }
+/* --------------------SECCION # 5--------------------- */
 
 
 
@@ -1358,143 +1652,8 @@ justify-content: flex-end;
   
 }
 
+/* --------------------------- SECCION # 6------------------------------- */
 
-/* ------------------------------seccion-6------------------------ */
-
-.seccion_6{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(84,218,112);
-}
-
-.contenido6_uno{
-    display: flex;
-    flex-direction: row;
-    height: 25%;
-    justify-content: center;
-    
-}
-
-.division_1{
-    display: flex;
-    align-items: center;
-    width: 25%;
-    justify-content: center;
-}
-
-.botonshape6{
-    border: 3px solid rgb(0, 0, 0);
-    background-color: rgba(84, 218, 113, 0);
-    border-radius: 20px;
-    width: 120px;
-    height: 25px;
-    color: rgba(84,218,112); /* Añade esta línea para cambiar el color del texto */
-    font-size: 12px;
-    font-weight: 450;
-}
-
-.division_2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 50%;
-    height: 100%;
-}
-
-.division_2 p{
-    text-align: center;
-    font-size: 30px;
-    width: 100%;
-
-}
-
-.division_2 span{
-    text-align: center;
-    font-size: 65px;
-
-}
-
-
-.division_3{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: 25%;
-    height: 100%;
-
-}
-
-.division_3 img{
-    width: 100%;
-    height: 100%;
-}
-
-
-.contenido6_dos{
-    width: 100%;
-    height: 27%;
-    display: flex;
-    justify-content: center;
-    flex-direction: row(3);
-}
-
-.contenido6_tres{
-    width: 100%;
-    height: 27%;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.parrafo-6{
-    display: flex;
-    flex-direction: column;
-    width: 23%;
-    margin: 30px;
-    
-    
-    
-}
-.Fecha{
-font-size: 25px;
-}
-
-.Parrafo{
-
-}
-
-.button1_s6{
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 120px;
-    height: 25px;
-    color:  rgba(84,218,112);
-    text-align: center; /* Añade esta línea para centrar el texto */
-    font-size: 12px;
-    margin-top: 10px;
-}
-
-.contenido6_cuatro{
-    display: flex;
-    height:21% ;
-    justify-content: space-between;
-}
-
-.botonshape62{
-    border: 3px solid rgb(0, 0, 0);
-    background-color: rgba(84, 218, 113, 0);
-    border-radius: 20px;
-    width: 120px;
-    height: 25px;
-    color: rgba(84,218,112); /* Añade esta línea para cambiar el color del texto */
-    font-size: 12px;
-    font-weight: 450;
-    margin: 15px;
-}
 
 @media only screen 
 and (max-width : 900px) {
@@ -1685,112 +1844,8 @@ and (max-width : 508px) {
     
 }
 
-/* ------------------------------seccion-7------------------------ */
+/* -----------------------------SECCION # 7 -------------------*/
 
-.seccion_7{
-    display: flex;
-    flex-direction: column;
-    height: auto;
-}
-
-.contenido_7uno{
-    display: flex;
-    flex-direction: row;
-    height: 30%;
-}
-
-.primero_7{
-    width: 30%;
-    height: 90%;
-}
-.primero_7 img{
-    margin-top: 10%;
-    width: 40%;
-    height: 80%;
-}
-
-.Mitad_7{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-}
-
-.Titulo_7{
-    font-weight: bold;
-    font-size: 45px;
-    color:rgba(84,218,112); 
-}
-
-.parrafo_7{
-    margin-top: 10px;
-    color:white;
-    text-align: center;
-}
-
-.tercero_7{ 
-    display: flex;
-    justify-content: flex-end;
-    width: 30%;
-    height: 90%;
-}
-
-.tercero_7 img{
-    margin-top: 10%;
-    width: 40%;
-    height: 80%;
-}
-
-.contenido_7dos{
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-}
-
-.card_7{
-    width: 30%;
-    background-color: rgba(84,218,112);
-    margin: 4%;
-}
-
-.imgagen_7 img{
-    width: 100%;
-}
-
-.foter_7{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.Nombre_7{
-    font-size: 30px;
-}
-
-
-.botonshape62-7{
-    border: 3px solid rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 120px;
-    height: 25px;
-    color: rgba(84,218,112); /* Añade esta línea para cambiar el color del texto */
-    font-size: 12px;
-    font-weight: 450;
-    margin: 15px;
-}
-
-.contenido_7tres{
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-}
 
 @media only screen 
 and (max-width : 900px) {
@@ -1922,34 +1977,8 @@ and (max-width : 550px) {
 }
 
 
-/* --------------------seccion--footer----------------- */
+/*------------------------ FOOTER--------------------------- */
 
-.footer{
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 100%;
-    justify-content: space-evenly;
-    background-color: rgba(84,218,112);
-
-}
-
-.contenedor_footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.contenido_fot_1{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin: 20px;
-}
-
-.Titulo_fot{
-    font-size: 30px;
-}
 
 
 @media only screen 
